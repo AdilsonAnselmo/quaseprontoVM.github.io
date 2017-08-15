@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>System</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script type="text/javascript" src="javascript.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+    <div class="topo">
+        <header>
+            <h1><a href="index.html">System Vale Mobi</a></h1>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="principal.html">NEGOCIAÇÃO</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+        <form id="form" data-toggle="validator" role="form">
+                <div class="form-group">
+                    <label for="textNome" class="control-label">Nome</label>
+                    <input id="textNome" class="form-control" placeholder="Digite seu Nome..." type="text">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" class="control-label">Email</label>
+                    <input id="inputEmail" class="form-control" placeholder="Digite seu E-mail" type="email">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="control-label">Senha</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua Senha...">
+                </div>
+                <div class="form-group">
+                    <label for="inputConfirm" class="control-label">Confirme a Senha</label>
+                    <input type="password" class="form-control" id="inputConfirm" placeholder="Confirme sua Senha...">
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-primary">Limpar</button>
+        </form>
+</body>
+</html>
