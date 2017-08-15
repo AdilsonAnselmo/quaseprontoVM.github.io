@@ -1,0 +1,26 @@
+.topo{
+    background-color: #555555;
+    text-align: center;
+    padding: 30px;
+    font-family: "Arial Unicode MS";
+    padding-bottom: 50px;
+}
+.topo a{
+    color: #d58512;
+}
+.menu{
+    float: right;
+    font-family: "Century Gothic";
+}
+.menu ul li {
+    display: inline;
+    padding: 15px;
+}
+.formulario{
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
